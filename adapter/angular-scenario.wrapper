@@ -1,0 +1,9 @@
+(function(window) {
+
+%CONTENT%
+
+
+
+window.__testacular__.start = createNgScenarioStartFn(window.__testacular__, angular.scenario.setUpAndRun, window.testacularNgConfig);
+
+})(window);
